@@ -34,31 +34,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="{{ route('dashboard') }}">Robo Planner</a>
+                    <a class="navbar-brand" href="{{ route('dashboard') }}">Test</a>
                 </div>
                 <div class="collapse navbar-collapse main-navbar-collapse">
-                    {{--{!! Menu::get('TopMenu')->asUl(['class' => 'nav navbar-nav navbar-right']) !!}--}}
                     <ul class="nav navbar-nav navbar-right">
                         @include(config('laravel-menu.views.bootstrap-items'), array('items' => $TopMenu->roots()))
                     </ul>
 
-                    {{--<ul class="nav navbar-nav navbar-right">--}}
-                        {{--<li class="active"><a href="#">Link</a></li>--}}
-                        {{--<li><a href="#">Link</a></li>--}}
-                        {{--<li class="dropdown">--}}
-                            {{--<a href="#" class="dropdown-toggle" data-hover="dropdown">Dropdown <b class="caret"></b></a>--}}
-                            {{--<ul class="dropdown-menu">--}}
-                                {{--<li role="presentation" class="dropdown-header">Dropdown header</li>--}}
-                                {{--<li><a href="#">Action</a></li>--}}
-                                {{--<li><a href="#">Another action</a></li>--}}
-                                {{--<li><a href="#">Something else here</a></li>--}}
-                                {{--<li role="presentation" class="divider"></li>--}}
-                                {{--<li role="presentation" class="dropdown-header">Dropdown header</li>--}}
-                                {{--<li><a href="{{ route('user_show') }}">Profile</a></li>--}}
-                                {{--<li><a href="{{ route('logout') }}">Logout</a></li>--}}
-                            {{--</ul>--}}
-                        {{--</li>--}}
-                    {{--</ul>--}}
+
                 </div><!-- /.navbar-collapse -->
             </div>
         </div>
@@ -77,7 +60,6 @@
 </div>
 
 
-{{--    <script src="{{ asset('js/lib/jquery-1.9.1.min.js') }}"></script>--}}
 <script src="{{ asset('js/lib/jquery-1.10.2.min.js') }}"></script>
 <script src="{{ asset('js/lib/jquery-ui.1.10.3.min.js') }}"></script>
 
