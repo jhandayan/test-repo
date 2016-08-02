@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+$font-family-sans-serif: 'Lato', sans-serif;
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+#childrens{
+  padding: 10px;
+  div{margin:3px 0;}
+}
+
+#specified_number_children_container{padding:10px 0;}
+
+.field.buttons button {
+  margin-right: .5em;
+}
+#invalid {
+  display: none;
+  float: left;
+  width: 290px;
+  margin-left: 120px;
+  margin-top: .5em;
+  color: #CC2A18;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.fielderrors {
+  display: none;
+  margin-top: .5em;
+  color: #CC2A18;
+  font-weight: bold;
+}
+.idealforms.adaptive #invalid {
+  margin-left: 0 !important;
+}
+.idealforms.adaptive .field.buttons label {
+  height: 0;
+}
+
+.field.buttons button {
+  margin-right: .5em;
+}
+
+.secondary-step{
+  display: none;
+}
+
+.secondary-step.active{
+  display: block !important;
+}
+
+#has_death_insurance{display:none;}
+#spouse-container{display:none;}
+#specified_number_children_container{display:none;}
+#expenses{display:none;}
+#has_death_insurance{display:none}
+#has_rider{display:none;}
+#annual_death_benefit{display:none;}
+#benefit_type_permanent_yes{display: none;}
+#age_to_assume{display:none;}
+#age_to_assume2{display: none;}
+.part_time_plan{display:none;}
+.know_retirement_benefit{display: none;}
+#pension_page{display:none}
+.survivor_benefit{display:none}
+.next{display:none;}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions{
+  strong { font-weight: bold; color: #000; }
+}
+.autocomplete-group { padding: 2px 5px;
+  strong { font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
+}
+
+

@@ -1,0 +1,51 @@
+.chart-title{
+    font-size: 20px;
+}
+
+.red-flag{
+    background-color: #a94442;
+    color: #fff;
+}
+
+span.red-flag-title{
+    color: #a94442;
+}
+
+.wealth-score-title{
+    background-color:#3498DB;
+    padding:5px 5px 5px 17px;
+}
+.yellow-flag{
+    background-color: #d4ac0d;
+    color: #fff;
+}
+
+span.yellow-flag-title{
+    color: #d4ac0d;
+}
+
+span.rank{
+    margin:0 .12em .3em 0;
+    font-size: 15px;
+}
+i.rank{
+    font-size: 50px;
+}
+
+.list-group-item{
+    padding-left: 5px;
+}
+
+.consequence-list-item{
+    padding-left:10px;
+}
+
+.expanded-row{
+    padding: 0;
+}
+
+.expanded-list-group{
+    margin: 0;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
